@@ -1,5 +1,8 @@
+import Heading from "./assets/Hello"
+
 function App() {
-  return <h1>hello</h1>
+  return
+  ;<Heading title={"Hello"} />
 }
 
 export default App
