@@ -1,4 +1,4 @@
-import Heading from "./assets/Hello"
+import Heading from "./components/Heading"
 
 function App() {
   return
