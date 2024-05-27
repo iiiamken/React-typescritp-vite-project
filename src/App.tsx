@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Heading from "./components/Heading"
 import Section from "./components/Section"
+import Counter from "./components/Counter"
 function App() {
   const [count, setCount] = useState(0)
 
@@ -8,7 +9,7 @@ function App() {
   ;<>
     ;<Section title={"Hello"}>world</Section>
     ;<Heading title={"Hello"} />;
-    <Counter setCount={setCount} count={count}></Counter>
+    <Counter setCount={setCount}>hello count is {count}</Counter>
   </>
 }
 
