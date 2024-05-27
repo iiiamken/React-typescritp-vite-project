@@ -5,7 +5,7 @@ type sectionProps = {
   children: ReactNode
 }
 
-const Section = ({ title, children }: { title: string; children: string }) => {
+const Section = ({ title, children }: sectionProps) => {
   return (
     <section>
       <h2>{title}</h2>
